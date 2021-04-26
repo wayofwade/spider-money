@@ -1,0 +1,19 @@
+extends layout
+block content
+  span(class="titles") #{title}
+  p #{username}
+  div(class="des-title")
+    li /users开头的会请求到users.js里面的路由
+    li /spider开头的会请求到spider.js里面的路由
+    li npm run start为开启项目的命令
+    li 图片下载路径为 '/Users/chencc/' 下面的路径，根据自己的电脑修改路径
+    li 已完成虎扑，猫眼爬虫
+  button(id="loginBtn", class="goEgg", name="loginBtn" onClick="goEgg()") 爬虫煎蛋
+  div(class="buttonDiv")
+    input(type="button", class="goHupu", onClick="goHupu()", value="爬虫虎扑")
+    input(type="button", class="goCatMovie", onClick="goCatMovie()", value="爬虫猫眼")
+    input(type="button", class="goBbTree", onClick="goBbTree()", value="萤石商城")
+  div(class="buttonDiv" id="renderDiv")
+
+
+

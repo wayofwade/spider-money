@@ -23,8 +23,8 @@ router.get('/hupu', async function(req, res, next) {
 router.get('/catMovie', async function(req, res, next) {
   spiderMaoyanController.getCatMovie(); // 爬虫的方法
   let hello = '爬虫猫眼电影'
-  let title = '图片下载路径为/Users/chencc/catMovieDownload/'
-  console.log('到这里了')
+  let title = '图片下载路径为/Users/chencongcong/Download/'
+  console.log('到这里了spider.js文件里')
   res.send({ title: title,username:hello });
 })
 

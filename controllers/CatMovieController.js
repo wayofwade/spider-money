@@ -18,6 +18,7 @@ const catMovieUrl = 'https://maoyan.com/films?showType=3&offset=' // showType=3�
 let urlFileName = '/Users/chencc/catMovieDownload/catMovie.json' // url下载路径文件
 
 
+// let module;
 module.exports = {
   test: function () {
     return "hello world async await";

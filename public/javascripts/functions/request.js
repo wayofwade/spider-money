@@ -21,8 +21,10 @@ function goHupu() { // 进来了
   console.log('请求虎扑的网站')
 }
 function goCatMovie() { // 猫眼电影的接口
+  // 跳转到spider.js里的方法里
   getUrl('/spider/catMovie?starName='+ 'aaa')
-  console.log('请求猫眼电影')
+  console.log('request里的请求猫眼电影')
+  // SpiderRouter.test()
 }
 function goBbTree() {
   console.log('萤石')
